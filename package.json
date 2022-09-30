@@ -1,20 +1,28 @@
 {
   "name": "nodejs-css-planets",
   "version": "1.0.0",
-  "description": "NodeJS Planet Rotation using CSS",
+  "description": "NodeJS CSS Planet Rotation",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js",
-    "dev": "nodemon app.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/plbranson/nodejs-css-planets.git"
   },
   "keywords": [
     "node",
     "nodejs",
+    "cors",
     "express",
     "javascript"
   ],
   "author": "Patrick L. Branson",
   "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/plbranson/nodejs-css-planets/issues"
+  },
+  "homepage": "https://github.com/plbranson/nodejs-css-planets#readme",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.0.3",
